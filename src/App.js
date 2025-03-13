@@ -52,7 +52,7 @@ class App extends Component {
                 }
             }).toMaster(),
             osc: new Tone.Oscillator({
-                "frequency": constants.DEFAULT_FREQ
+                "frequency": localFreq
             }).toMaster()
         }
     }
